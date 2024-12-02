@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paws & Claws Pet Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/3422711409.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Paws & Claws Team.avif" alt="Paws & Claws Logo">
+                <h1>Paws & Claws</h1>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#pets">Pets</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Welcome to Paws & Claws</h2>
+                <p>Find your perfect furry friend today!</p>
+                <a href="#pets" class="cta-button">Explore Pets</a>
+            </div>
+            <div class="hero-slider">
+                <img src="heroimg1.jpg" alt="Pet 1" class="active">
+                <img src="heroimg2.jpg" style="object-fit:fill;" alt="Pet 2">
+                <img src="heroimg3.jpg" alt="Pet 3">
+            </div>
+        </section>
+
+        <section id="pets" class="featured-pets">
+            <h2>Featured Pets</h2>
+            <div class="pet-filter">
+                <button class="filter-button active" data-filter="all">All</button>
+                <button class="filter-button" data-filter="dog">Dogs</button>
+                <button class="filter-button" data-filter="cat">Cats</button>
+                <button class="filter-button" data-filter="cow">Cows</button>
+                <button class="filter-button" data-filter="bird">Birds</button>
+                <button class="filter-button" data-filter="fish">Fish</button>
+                <button class="filter-button" data-filter="horse">Horses</button>
+                <button class="filter-button" data-filter="other">Other</button>
+            </div>
+            <div class="pet-grid">
+                <div class="pet-card" data-category="dog">
+                    <img src="golden retriver.jpg" alt="Dog - Golden Retriever">
+                    <h3>Buddy</h3>
+                    <p>Golden Retriever, 2 years old</p>
+                    <a href="https://en.wikipedia.org/wiki/Golden_Retriever" class="pet-details-button">View Details</a>
+                </div>
+                <div class="pet-card" data-category="cat">
+                    <img src="Persian.jpeg" alt="Cat - Persian">
+                    <h3>Whiskers</h3>
+                    <p>Persian, 1 year old</p>
+                    <a href="https://en.wikipedia.org/wiki/Persian_cat" class="pet-details-button">View Details</a>
+                </div>
+                <div class="pet-card" data-category="cow">
+                    <img src="Holstein.jpeg" alt="Cow - Holstein">
+                    <h3>Daisy</h3>
+                    <p>Holstein, 3 years old</p>
+                    <a href="https://en.wikipedia.org/wiki/Holstein_Friesian" class="pet-details-button">View Details</a>
+                </div>
+                <div class="pet-card" data-category="bird">
+                    <img src="Parakeet.jpeg" alt="Bird - Parakeet">
+                    <h3>Polly</h3>
+                    <p>Parakeet, 6 months old</p>
+                    <a href="https://en.wikipedia.org/wiki/Parakeet" class="pet-details-button">View Details</a>
+                </div>
+                <div class="pet-card" data-category="fish">
+                    <img src="Goldfish.jpg" alt="Fish - Goldfish">
+                    <h3>Bubbles</h3>
+                    <p>Goldfish, 1 year old</p>
+                    <a href="https://en.wikipedia.org/wiki/Goldfish" class="pet-details-button">View Details</a>
+                </div>
+                <div class="pet-card" data-category="horse">
+                    <img src="Arabian horse.webp" alt="Horse - Arabian">
+                    <h3>Thunder</h3>
+                    <p>Arabian, 5 years old</p>
+                    <a href="https://en.wikipedia.org/wiki/Arabian_horse" class="pet-details-button">View Details</a>
+                </div>
+                <div class="pet-card" data-category="other">
+                    <img src="Dutch Rabit.jpg" alt="Rabbit - Dutch">
+                    <h3>Thumper</h3>
+                    <p>Dutch Rabbit, 8 months old</p>
+                    <a href="https://en.wikipedia.org/wiki/Dutch_rabbit" class="pet-details-button">View Details</a>
+                </div>
+                <div class="pet-card" data-category="dog">
+                    <img src="GermanShepherd.avif" alt="Dog - German Shepherd">
+                    <h3>Max</h3>
+                    <p>German Shepherd, 3 years old</p>
+                    <a href="https://en.wikipedia.org/wiki/German_Shepherd" class="pet-details-button">View Details</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <i class="fas fa-paw"></i>
+                    <h3>Pet Adoption</h3>
+                    <p>Find your perfect companion from our wide selection of pets.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-cut"></i>
+                    <h3>Grooming</h3>
+                    <p>Professional grooming services to keep your pet looking their best.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-stethoscope"></i>
+                    <h3>Veterinary Care</h3>
+                    <p>Expert veterinary care to ensure your pet's health and well-being.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-bone"></i>
+                    <h3>Pet Supplies</h3>
+                    <p>High-quality food, toys, and accessories for all your pet needs.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Paws & Claws</h2>
+            <div class="about-content">
+                <img src="Paws & Claws Team.avif" alt="Paws & Claws Team">
+                <div class="about-text">
+                    <p>Paws & Claws is dedicated to connecting loving families with their perfect pet companions. Our team of animal lovers is committed to providing the best care and support for all our furry, feathered, and scaly friends.</p>
+                    <p>With years of experience in animal welfare, we strive to create a welcoming environment for both pets and their potential owners. Visit us today to find your new best friend!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="b991fb51-796c-456e-9fbd-d6c361f504ce">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Paws & Claws</h3>
+                <p><i class="fa-solid fa-location-dot" style="color: white;"></i> 123 Pet Street, LPU, PA 12345</p>
+                <p> <i class="fa-solid fa-phone" style="color: white;"></i> Phone: (+91) 122-561174</p>
+                <p><i class="fa-solid fa-envelope" style="color: white;"></i> Email: info@pawsandclaws.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#pets">Pets</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" class="social-icon"><i class="fa-brands fa-facebook" style="background-color: #1877F2; color: white; padding: 10px; border-radius: 50%; font-size: 24px;"></i></a>
+                    <a href="https://x.com/?lang=en" class="social-icon"><i class="fab fa-twitter" style="background-color: #1DA1F2; color: white; padding: 10px; border-radius: 50%; font-size: 24px;"></i></a>
+                    <a href="https://Instagram.com" class="social-icon"><i class="fab fa-instagram" style="background-color: #C13584; color: white; padding: 10px; border-radius: 15%; font-size: 24px;"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Paws & Claws Pet Shop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
